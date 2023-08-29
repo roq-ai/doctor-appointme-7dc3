@@ -1,0 +1,2422 @@
+[
+  {
+    "service": [
+      {
+        "id": "eb3013ff-712e-43b4-ac2a-63456fe0cb0f",
+        "name": "General Check-up",
+        "description": "Comprehensive health assessment",
+        "cost": 62386,
+        "created_at": "2023-08-28T22:04:55.112Z",
+        "updated_at": "2023-08-28T16:03:03.598Z",
+        "billing": "$100",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3067aa9e-ba4e-4299-8048-ebdf03960444",
+        "name": "Dental Cleaning",
+        "description": "Professional teeth cleaning",
+        "cost": 92206,
+        "created_at": "2023-08-28T22:37:51.565Z",
+        "updated_at": "2023-08-28T12:32:50.665Z",
+        "billing": "$75",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8cbc2603-7870-43d4-a20a-e62c888a55f8",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation exercises",
+        "cost": 80064,
+        "created_at": "2023-08-28T12:39:13.360Z",
+        "updated_at": "2023-08-28T22:03:44.075Z",
+        "billing": "$120",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cc116366-346e-42a2-9ba2-4832bff12f87",
+        "name": "Eye Examination",
+        "description": "Vision testing and evaluation",
+        "cost": 67349,
+        "created_at": "2023-08-28T20:35:31.306Z",
+        "updated_at": "2023-08-28T19:43:12.704Z",
+        "billing": "$90",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4e1ce66b-cfe3-4a48-8bc9-1b1b00630ce2",
+        "name": "Mental Health Counseling",
+        "description": "Therapeutic counseling sessions",
+        "cost": 5269,
+        "created_at": "2023-08-29T02:27:00.237Z",
+        "updated_at": "2023-08-28T07:40:40.530Z",
+        "billing": "$150",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "08a35ba2-da51-4660-95f8-226298888699",
+        "plan_name": "Gold Plan",
+        "coverage": 78488,
+        "created_at": "2023-08-28T07:30:37.658Z",
+        "updated_at": "2023-08-28T05:05:30.713Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84f79290-75f5-4824-9f36-cbbe85bcd051",
+        "plan_name": "Silver Plan",
+        "coverage": 63327,
+        "created_at": "2023-08-28T15:07:01.780Z",
+        "updated_at": "2023-08-28T06:24:19.825Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8271b70-5f65-4b73-a2a9-4230a966f68e",
+        "plan_name": "Bronze Plan",
+        "coverage": 88304,
+        "created_at": "2023-08-28T10:48:41.077Z",
+        "updated_at": "2023-08-28T22:01:05.023Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c51a0cf1-2f5b-4584-97cb-66c8a520414e",
+        "plan_name": "Platinum Plan",
+        "coverage": 43613,
+        "created_at": "2023-08-28T04:32:32.374Z",
+        "updated_at": "2023-08-28T23:04:00.448Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59f10b09-7096-4575-b8cc-274be87561a4",
+        "plan_name": "Basic Plan",
+        "coverage": 43757,
+        "created_at": "2023-08-28T17:54:39.257Z",
+        "updated_at": "2023-08-28T05:30:30.846Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "c413ec88-cdba-4b1b-a0e2-b4c304a5d933",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 54000,
+        "created_at": "2023-08-28T12:45:01.506Z",
+        "updated_at": "2023-08-28T23:19:48.240Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f6cb70c8-6bee-4419-abe6-50ebdceea482",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Pediatrics",
+        "experience": 77443,
+        "created_at": "2023-08-28T21:19:00.180Z",
+        "updated_at": "2023-08-28T16:08:43.490Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "46eaea51-af44-475c-95c1-9fab62610d3d",
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "experience": 29902,
+        "created_at": "2023-08-28T14:47:41.782Z",
+        "updated_at": "2023-08-29T01:55:23.683Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "237a6d03-9ba6-4fce-aa0f-c796af355921",
+        "name": "Dr. Emily Davis",
+        "specialty": "Dermatology",
+        "experience": 23549,
+        "created_at": "2023-08-29T03:12:08.767Z",
+        "updated_at": "2023-08-28T05:41:56.975Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8df2681e-b18a-4fdc-a2d2-ff71d34dfb7a",
+        "name": "Dr. Robert Wilson",
+        "specialty": "Psychiatry",
+        "experience": 23454,
+        "created_at": "2023-08-28T19:04:31.382Z",
+        "updated_at": "2023-08-28T15:08:39.507Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "53f85c81-d30d-45bf-96d6-47e08f683028",
+        "date_time": "2023-08-29T02:45:06.429Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-29T01:31:22.058Z",
+        "updated_at": "2023-08-29T01:17:45.873Z",
+        "doctor_id": "8df2681e-b18a-4fdc-a2d2-ff71d34dfb7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "675ecb35-dc16-46c7-8687-5e69003fa30e",
+        "date_time": "2023-08-28T11:09:05.482Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T19:43:40.113Z",
+        "updated_at": "2023-08-28T13:07:58.887Z",
+        "doctor_id": "237a6d03-9ba6-4fce-aa0f-c796af355921",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15ae6402-782a-4074-a843-08549b6cbcdf",
+        "date_time": "2023-08-28T10:40:14.252Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T00:36:55.790Z",
+        "updated_at": "2023-08-28T10:57:02.407Z",
+        "doctor_id": "8df2681e-b18a-4fdc-a2d2-ff71d34dfb7a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7f0e2a34-c71d-4e65-92da-780f9f94d85d",
+        "date_time": "2023-08-28T03:56:52.358Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T11:20:57.138Z",
+        "updated_at": "2023-08-28T08:29:49.890Z",
+        "doctor_id": "237a6d03-9ba6-4fce-aa0f-c796af355921",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ed3af3b-8c78-46ca-9d22-d0d3ddfce8c4",
+        "date_time": "2023-08-28T18:09:30.479Z",
+        "status": "In Progress",
+        "created_at": "2023-08-28T06:35:11.429Z",
+        "updated_at": "2023-08-28T22:12:22.766Z",
+        "doctor_id": "8df2681e-b18a-4fdc-a2d2-ff71d34dfb7a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4d8d5b13-0af7-4ecc-a928-063d7e34da10",
+        "email": "Coleman.Zemlak62@hotmail.com",
+        "firstName": "Lon",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51241336",
+        "tenantId": null
+      },
+      {
+        "reference": "461245a4-186e-4e57-9b73-90338bd36102",
+        "email": "Lucy.Bradtke36@gmail.com",
+        "firstName": "Elfrieda",
+        "lastName": "Pfannerstill-Watsica",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/255.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a90ee68a-a830-46cb-b421-514a5b22eaa5",
+        "email": "Belle.Balistreri62@hotmail.com",
+        "firstName": "Coby",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b3b1f0c-b93b-4899-aaf6-32a6a32a3fef",
+        "email": "Edwardo.Schmitt@yahoo.com",
+        "firstName": "Emmie",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1018.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d06767e8-8a16-4e8e-9960-b411a6e5ee71",
+        "email": "Sophia.Williamson@gmail.com",
+        "firstName": "Lorna",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/512.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "70488b48-3f3f-4a26-b081-1e1de46f837c",
+        "name": "General Check-up",
+        "description": "Comprehensive health assessment",
+        "cost": 99550,
+        "created_at": "2023-08-28T17:58:53.243Z",
+        "updated_at": "2023-08-28T07:24:50.031Z",
+        "billing": "$100 per session",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "57b8e42a-3f59-40ae-a424-4e37ed03f53c",
+        "name": "Dental Cleaning",
+        "description": "Professional teeth cleaning",
+        "cost": 23996,
+        "created_at": "2023-08-28T20:05:18.555Z",
+        "updated_at": "2023-08-29T02:09:43.365Z",
+        "billing": "$50 per visit",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bd76c62c-c366-461c-9e9b-c1804e94dd57",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation for injuries",
+        "cost": 77561,
+        "created_at": "2023-08-28T16:30:02.622Z",
+        "updated_at": "2023-08-28T08:33:26.433Z",
+        "billing": "$200 per hour",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a252a5ef-a56f-42ed-aa59-59a7616ff737",
+        "name": "Eye Examination",
+        "description": "Vision testing and prescription",
+        "cost": 60416,
+        "created_at": "2023-08-29T01:44:20.052Z",
+        "updated_at": "2023-08-28T14:47:14.198Z",
+        "billing": "$75 per appointment",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "85301507-305b-4f93-94ce-db4dcbaeb4a5",
+        "name": "Mental Health Counseling",
+        "description": "Therapy for mental well-being",
+        "cost": 64261,
+        "created_at": "2023-08-28T22:18:26.408Z",
+        "updated_at": "2023-08-28T21:51:16.031Z",
+        "billing": "$150 per session",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "f70a44eb-83cf-4292-b3b4-53a8fed63bb7",
+        "plan_name": "Gold Plan",
+        "coverage": 58517,
+        "created_at": "2023-08-28T09:49:01.819Z",
+        "updated_at": "2023-08-28T08:20:16.059Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38e7b645-28dd-4ba6-8fc6-c57e23d933aa",
+        "plan_name": "Silver Plan",
+        "coverage": 94524,
+        "created_at": "2023-08-28T14:08:03.693Z",
+        "updated_at": "2023-08-28T15:08:05.995Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e77f408-ee51-4d48-b68a-c7e335281b12",
+        "plan_name": "Platinum Plan",
+        "coverage": 67505,
+        "created_at": "2023-08-29T00:14:19.620Z",
+        "updated_at": "2023-08-29T00:23:06.730Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5f2bc36-68e3-4ac7-9053-380dba3a0843",
+        "plan_name": "Bronze Plan",
+        "coverage": 24613,
+        "created_at": "2023-08-29T03:29:21.897Z",
+        "updated_at": "2023-08-28T22:25:09.225Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f21c3229-c4f5-4ca3-ad20-161722920f8a",
+        "plan_name": "Diamond Plan",
+        "coverage": 18636,
+        "created_at": "2023-08-29T01:10:41.242Z",
+        "updated_at": "2023-08-28T10:52:20.974Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "9abf2f01-3a2b-414c-b060-ceb7630e62c3",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 50646,
+        "created_at": "2023-08-28T07:53:40.289Z",
+        "updated_at": "2023-08-28T16:29:57.036Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4b1329a4-f230-4240-9f97-22bf7119b04a",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Pediatrics",
+        "experience": 73841,
+        "created_at": "2023-08-28T12:00:11.490Z",
+        "updated_at": "2023-08-28T04:54:30.548Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "68722b9f-44bd-4b01-9025-591f92417964",
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "experience": 42136,
+        "created_at": "2023-08-28T17:37:00.161Z",
+        "updated_at": "2023-08-29T00:17:01.442Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c023d74d-b210-461f-b69c-4c939fd04aa8",
+        "name": "Dr. Emily Davis",
+        "specialty": "Dermatology",
+        "experience": 65098,
+        "created_at": "2023-08-29T03:19:54.178Z",
+        "updated_at": "2023-08-29T02:04:46.398Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8c94e838-f877-4d2d-9050-bfc252841e29",
+        "name": "Dr. Robert Wilson",
+        "specialty": "Neurology",
+        "experience": 6347,
+        "created_at": "2023-08-28T21:05:38.552Z",
+        "updated_at": "2023-08-28T19:31:45.683Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "e37e7724-7e7d-4334-ac3b-c2e783c0adb6",
+        "date_time": "2023-08-28T22:54:16.999Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T10:54:50.806Z",
+        "updated_at": "2023-08-28T21:40:26.661Z",
+        "doctor_id": "4b1329a4-f230-4240-9f97-22bf7119b04a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a6a96b34-2a23-4e23-94ec-810c63fa7973",
+        "date_time": "2023-08-28T19:25:36.283Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T10:49:07.598Z",
+        "updated_at": "2023-08-28T19:56:03.788Z",
+        "doctor_id": "8c94e838-f877-4d2d-9050-bfc252841e29",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71a186f9-ddbd-4e23-94b9-6290798bb446",
+        "date_time": "2023-08-28T07:09:08.140Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T16:43:24.028Z",
+        "updated_at": "2023-08-28T18:33:54.375Z",
+        "doctor_id": "4b1329a4-f230-4240-9f97-22bf7119b04a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4d2e58f-7e61-4c15-b6f5-100363a29894",
+        "date_time": "2023-08-28T19:58:12.085Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T13:16:02.085Z",
+        "updated_at": "2023-08-28T20:56:29.371Z",
+        "doctor_id": "4b1329a4-f230-4240-9f97-22bf7119b04a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18b7eb9e-cb1e-4176-b00a-36bacfcce2a3",
+        "date_time": "2023-08-28T23:34:05.513Z",
+        "status": "In Progress",
+        "created_at": "2023-08-29T01:37:47.124Z",
+        "updated_at": "2023-08-28T23:59:43.307Z",
+        "doctor_id": "c023d74d-b210-461f-b69c-4c939fd04aa8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7799052d-df50-4254-8a0d-2ffc0c0ed516",
+        "email": "Clementine93@yahoo.com",
+        "firstName": "Victor",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48221873",
+        "tenantId": null
+      },
+      {
+        "reference": "d07b8f89-7f65-40eb-9da8-582f38833c36",
+        "email": "Meagan_Bechtelar-Maggio@gmail.com",
+        "firstName": "Jennings",
+        "lastName": "Crooks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77158293",
+        "tenantId": null
+      },
+      {
+        "reference": "1a25effe-412e-49a3-866a-282f20c8a665",
+        "email": "Genoveva0@hotmail.com",
+        "firstName": "Lavada",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94227216",
+        "tenantId": null
+      },
+      {
+        "reference": "47c52b72-447e-4d95-8fc5-ceb4f0d73f60",
+        "email": "Jeremy_Bednar91@gmail.com",
+        "firstName": "Jarrod",
+        "lastName": "DuBuque",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/614.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "338f04e7-a938-484b-b686-5f0df48019af",
+        "email": "Krystal_Hansen10@hotmail.com",
+        "firstName": "Dulce",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1224.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "a75c944c-4e9b-4120-aeeb-75bae2b8c31b",
+        "name": "Web Development",
+        "description": "Custom website development tailored to your business needs",
+        "cost": 69937,
+        "created_at": "2023-08-28T16:35:13.273Z",
+        "updated_at": "2023-08-29T02:11:36.444Z",
+        "billing": "Hourly",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bad453f8-d393-43ce-859c-ad4f6e59ff96",
+        "name": "Digital Marketing",
+        "description": "Effective strategies to boost your online presence",
+        "cost": 70785,
+        "created_at": "2023-08-28T15:41:37.924Z",
+        "updated_at": "2023-08-29T01:10:03.132Z",
+        "billing": "Fixed Price",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "deeff10d-d909-4969-b311-a56151db4c95",
+        "name": "Graphic Design",
+        "description": "Creative designs that make your brand stand out",
+        "cost": 34408,
+        "created_at": "2023-08-28T19:04:52.165Z",
+        "updated_at": "2023-08-28T12:51:45.154Z",
+        "billing": "Monthly Subscription",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "82a309e7-462d-4e38-863a-ef16cfe567ff",
+        "name": "Mobile App Development",
+        "description": "Mobile applications for iOS and Android platforms",
+        "cost": 40280,
+        "created_at": "2023-08-28T23:38:48.122Z",
+        "updated_at": "2023-08-28T03:59:17.888Z",
+        "billing": "Pay-per-Click",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0e956cd5-ebef-491d-aa03-1430164522f5",
+        "name": "IT Consulting",
+        "description": "Expert advice and solutions for your IT challenges",
+        "cost": 54479,
+        "created_at": "2023-08-28T17:38:37.716Z",
+        "updated_at": "2023-08-29T03:06:16.755Z",
+        "billing": "Revenue Share",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "fb8ff5b0-68c0-45c3-b7f9-82722c41eb24",
+        "plan_name": "Gold Plan",
+        "coverage": 13785,
+        "created_at": "2023-08-29T03:51:24.871Z",
+        "updated_at": "2023-08-28T20:35:12.891Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c6cd75a-ae52-40fc-a63f-1bb2ee0285ac",
+        "plan_name": "Silver Plan",
+        "coverage": 35871,
+        "created_at": "2023-08-28T08:56:00.632Z",
+        "updated_at": "2023-08-28T21:47:18.563Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a5d646c-47f0-4d96-8786-07ae4097b8e7",
+        "plan_name": "Platinum Plan",
+        "coverage": 67176,
+        "created_at": "2023-08-28T08:56:23.432Z",
+        "updated_at": "2023-08-29T00:53:10.773Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c47dd54c-a79c-4307-8561-a01287143097",
+        "plan_name": "Bronze Plan",
+        "coverage": 46460,
+        "created_at": "2023-08-29T00:32:51.001Z",
+        "updated_at": "2023-08-29T03:06:27.876Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bff6f0b-0761-43ca-986a-79f405701baa",
+        "plan_name": "Diamond Plan",
+        "coverage": 34971,
+        "created_at": "2023-08-28T23:16:35.686Z",
+        "updated_at": "2023-08-29T03:21:44.772Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "1f30d0e6-68e4-4039-a670-5561697d93e1",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 64296,
+        "created_at": "2023-08-28T20:05:10.751Z",
+        "updated_at": "2023-08-28T08:05:20.472Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a7e741f8-ff41-4b84-b457-daa88d2d7127",
+        "name": "Dr. Emily Johnson",
+        "specialty": "Pediatrics",
+        "experience": 45726,
+        "created_at": "2023-08-28T10:20:53.723Z",
+        "updated_at": "2023-08-29T01:47:37.087Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7ecd9d57-a6ec-42fe-9c32-248551adad2e",
+        "name": "Dr. Michael Brown",
+        "specialty": "Dermatology",
+        "experience": 14255,
+        "created_at": "2023-08-28T13:05:02.776Z",
+        "updated_at": "2023-08-28T12:11:30.144Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0dc4f1bf-5c55-42af-acd6-57c1cf091ef9",
+        "name": "Dr. Sarah Davis",
+        "specialty": "Orthopedics",
+        "experience": 35441,
+        "created_at": "2023-08-28T15:02:21.580Z",
+        "updated_at": "2023-08-28T23:32:41.419Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "73441834-da10-448d-80d4-fbb61ff31062",
+        "name": "Dr. David Wilson",
+        "specialty": "Neurology",
+        "experience": 13027,
+        "created_at": "2023-08-28T05:54:32.313Z",
+        "updated_at": "2023-08-28T05:40:39.990Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "458ce3dd-5785-4533-adf0-f6325a65dd51",
+        "date_time": "2023-08-29T03:00:40.973Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T16:52:58.723Z",
+        "updated_at": "2023-08-28T16:26:29.869Z",
+        "doctor_id": "a7e741f8-ff41-4b84-b457-daa88d2d7127",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44f957b3-133e-4cbf-8c0c-88c5691a9fcf",
+        "date_time": "2023-08-28T15:36:46.611Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T16:45:19.308Z",
+        "updated_at": "2023-08-28T16:00:19.982Z",
+        "doctor_id": "a7e741f8-ff41-4b84-b457-daa88d2d7127",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b8a1af3-8e91-463a-8184-cb2a3780f277",
+        "date_time": "2023-08-28T05:25:39.370Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T19:48:54.044Z",
+        "updated_at": "2023-08-29T03:04:10.512Z",
+        "doctor_id": "1f30d0e6-68e4-4039-a670-5561697d93e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33149abf-ed50-4c03-8fb4-c189b4819b07",
+        "date_time": "2023-08-28T12:50:09.319Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T10:33:17.445Z",
+        "updated_at": "2023-08-28T05:29:14.119Z",
+        "doctor_id": "7ecd9d57-a6ec-42fe-9c32-248551adad2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7debdb30-b9b4-4df2-b8a2-93dda36640c7",
+        "date_time": "2023-08-28T13:44:43.781Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T14:50:03.259Z",
+        "updated_at": "2023-08-28T05:15:11.045Z",
+        "doctor_id": "a7e741f8-ff41-4b84-b457-daa88d2d7127",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ccce7cd-bd7b-4f5a-9a67-fe8cd70576e7",
+        "email": "Imani93@yahoo.com",
+        "firstName": "Sebastian",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/826.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4be6dbf3-1e9c-40f0-853e-19cf63e08129",
+        "email": "Mathias.Wiza88@yahoo.com",
+        "firstName": "Antonia",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35460109",
+        "tenantId": null
+      },
+      {
+        "reference": "5d1e218a-4d3d-4521-a05b-e52d5fc4ece0",
+        "email": "Barney_Hintz45@hotmail.com",
+        "firstName": "Thaddeus",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/299.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6738e2f7-ae7b-43aa-a7d8-cb61c2761165",
+        "email": "Ladarius_Feeney@hotmail.com",
+        "firstName": "Zora",
+        "lastName": "Shields",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/740.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa21e0fa-632a-47db-a8b2-345bc001cacd",
+        "email": "Bridget6@gmail.com",
+        "firstName": "Alexis",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/922.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "6c5cbb5f-36ce-475d-8825-335144c66647",
+        "name": "General Check-up",
+        "description": "Comprehensive health assessment for overall well-being",
+        "cost": 16495,
+        "created_at": "2023-08-28T17:31:49.357Z",
+        "updated_at": "2023-08-28T19:13:40.043Z",
+        "billing": "$100 per session",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "86617f51-4a18-4ba1-965c-0662dcd8f277",
+        "name": "Dental Cleaning",
+        "description": "Professional teeth cleaning and oral hygiene",
+        "cost": 67527,
+        "created_at": "2023-08-28T15:06:40.357Z",
+        "updated_at": "2023-08-28T04:07:36.277Z",
+        "billing": "$50 per visit",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8d4391e5-4bbd-46b6-b310-63c0f278acff",
+        "name": "IT Consulting",
+        "description": "Expert advice on technology solutions and optimizations",
+        "cost": 82698,
+        "created_at": "2023-08-28T11:44:02.282Z",
+        "updated_at": "2023-08-28T17:27:13.146Z",
+        "billing": "$200 per hour",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf19b5e3-90a3-402c-a3c8-e3cb7d7b329f",
+        "name": "Language Classes",
+        "description": "Language learning programs for different proficiency levels",
+        "cost": 16789,
+        "created_at": "2023-08-28T15:55:39.440Z",
+        "updated_at": "2023-08-28T22:17:26.177Z",
+        "billing": "$80 per course",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0fb37681-7fb9-4f7c-bd4a-a9289773e02b",
+        "name": "Recycling Services",
+        "description": "Eco-friendly waste management and recycling solutions",
+        "cost": 99840,
+        "created_at": "2023-08-28T09:24:21.877Z",
+        "updated_at": "2023-08-28T15:16:43.335Z",
+        "billing": "$20 per pickup",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "95b38c4a-fb08-49cc-bb49-ff0cd855ea52",
+        "plan_name": "Basic Coverage",
+        "coverage": 37863,
+        "created_at": "2023-08-28T06:43:30.684Z",
+        "updated_at": "2023-08-28T03:56:54.144Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "834eaa7f-c035-4d3e-88d7-c5edd8460584",
+        "plan_name": "Premium Plus",
+        "coverage": 76806,
+        "created_at": "2023-08-29T00:47:14.112Z",
+        "updated_at": "2023-08-28T06:06:19.449Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9f5d1a2-9e63-4023-bb99-ecdec8c10bc3",
+        "plan_name": "Family Plan",
+        "coverage": 43515,
+        "created_at": "2023-08-28T12:28:56.277Z",
+        "updated_at": "2023-08-28T22:00:33.210Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab1920c6-88bd-4ed0-82a9-0d3b107e3384",
+        "plan_name": "Senior Care",
+        "coverage": 45121,
+        "created_at": "2023-08-28T19:51:54.150Z",
+        "updated_at": "2023-08-28T11:07:19.111Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d02e2be-98e7-453d-952d-93a3fb3413ac",
+        "plan_name": "Dental Insurance",
+        "coverage": 82994,
+        "created_at": "2023-08-29T02:49:59.824Z",
+        "updated_at": "2023-08-28T17:37:20.678Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "926eaf0d-f70b-4b06-b71f-3371c9bcdd6f",
+        "name": "Dr. Johnson",
+        "specialty": "Cardiology",
+        "experience": 6308,
+        "created_at": "2023-08-28T17:06:13.262Z",
+        "updated_at": "2023-08-28T22:50:18.211Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "08b4a971-ccac-47a9-a107-918c8ed3f343",
+        "name": "Dr. Anderson",
+        "specialty": "Pediatrics",
+        "experience": 70892,
+        "created_at": "2023-08-28T10:54:08.885Z",
+        "updated_at": "2023-08-29T00:16:56.557Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4a1d1876-1b75-4bc1-a9a7-6b0389d88ccd",
+        "name": "Dr. Thompson",
+        "specialty": "Orthopedics",
+        "experience": 23016,
+        "created_at": "2023-08-28T12:22:13.730Z",
+        "updated_at": "2023-08-29T02:53:55.101Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4622c24f-55a2-4680-a38a-f2f0c6e33d1b",
+        "name": "Dr. Roberts",
+        "specialty": "Dermatology",
+        "experience": 6784,
+        "created_at": "2023-08-28T19:21:26.009Z",
+        "updated_at": "2023-08-28T23:33:54.995Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0416e94e-05b4-4e8b-bf82-533877851401",
+        "name": "Dr. Walker",
+        "specialty": "Neurology",
+        "experience": 85419,
+        "created_at": "2023-08-28T04:42:26.337Z",
+        "updated_at": "2023-08-28T18:18:06.153Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "8492ffbf-3d75-42cb-9a43-dc66c591d476",
+        "date_time": "2023-08-28T22:18:37.507Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T07:47:08.694Z",
+        "updated_at": "2023-08-28T09:48:33.230Z",
+        "doctor_id": "926eaf0d-f70b-4b06-b71f-3371c9bcdd6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f466e15-5e52-45fa-a358-eaf3f7658d86",
+        "date_time": "2023-08-28T17:47:45.513Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T11:27:09.544Z",
+        "updated_at": "2023-08-28T14:56:39.562Z",
+        "doctor_id": "4622c24f-55a2-4680-a38a-f2f0c6e33d1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa22f576-f3b3-4ef9-8ee9-786d0866b300",
+        "date_time": "2023-08-28T09:24:24.712Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T15:12:29.870Z",
+        "updated_at": "2023-08-29T02:54:17.066Z",
+        "doctor_id": "926eaf0d-f70b-4b06-b71f-3371c9bcdd6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11c3310d-a628-45ab-aedb-8b54619bca03",
+        "date_time": "2023-08-29T01:51:25.870Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T16:55:51.101Z",
+        "updated_at": "2023-08-28T22:33:37.822Z",
+        "doctor_id": "926eaf0d-f70b-4b06-b71f-3371c9bcdd6f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6b726d9-335f-4b97-a720-db393cc771a4",
+        "date_time": "2023-08-28T08:09:07.329Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T23:47:47.122Z",
+        "updated_at": "2023-08-28T18:16:15.822Z",
+        "doctor_id": "08b4a971-ccac-47a9-a107-918c8ed3f343",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ec8acc31-e938-451f-8221-954ecf9432df",
+        "email": "Aleen_OKeefe36@yahoo.com",
+        "firstName": "Whitney",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/981.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea9eaef7-f4e5-4b34-bc2d-f0d5f5b3e1fb",
+        "email": "Dominic_Klocko@yahoo.com",
+        "firstName": "Alfred",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48490646",
+        "tenantId": null
+      },
+      {
+        "reference": "7156a508-f248-4cfb-aebb-89af50dca083",
+        "email": "Agustin_Bernhard@gmail.com",
+        "firstName": "Hobart",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/545.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6e4d6476-2427-4168-a47b-10a625ed4627",
+        "email": "Elisha.Heaney@hotmail.com",
+        "firstName": "Billy",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/822.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23ef622f-61b6-4ed3-bd3f-014866f43cea",
+        "email": "Hilda_Haley-Hagenes49@hotmail.com",
+        "firstName": "Brenden",
+        "lastName": "Keeling",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1215.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "6261807c-19a2-43ce-8039-ff04161c5946",
+        "name": "Medical Checkup",
+        "description": "Comprehensive health examination",
+        "cost": 37467,
+        "created_at": "2023-08-28T19:59:21.049Z",
+        "updated_at": "2023-08-28T19:36:53.136Z",
+        "billing": "$100 per hour",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2aeb61e6-cba3-4c66-8a42-4fdab16d6bb7",
+        "name": "Counseling Session",
+        "description": "Mental health therapy",
+        "cost": 16898,
+        "created_at": "2023-08-28T09:41:07.885Z",
+        "updated_at": "2023-08-28T08:16:51.021Z",
+        "billing": "$150 per session",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d38ae048-36b4-4742-8240-b0f868628010",
+        "name": "IT Support",
+        "description": "Technical assistance for software issues",
+        "cost": 20078,
+        "created_at": "2023-08-28T20:19:09.066Z",
+        "updated_at": "2023-08-28T04:48:59.012Z",
+        "billing": "$50 per incident",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "971b9718-b5c9-41bf-95c9-e876b8ba7143",
+        "name": "Business Strategy Consulting",
+        "description": "Strategic planning for business growth",
+        "cost": 90487,
+        "created_at": "2023-08-28T09:57:40.405Z",
+        "updated_at": "2023-08-28T06:38:58.498Z",
+        "billing": "$200 per consultation",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f8e32e28-8c39-4513-b878-3810e4535191",
+        "name": "Online Course",
+        "description": "Virtual learning program",
+        "cost": 94471,
+        "created_at": "2023-08-28T12:02:12.998Z",
+        "updated_at": "2023-08-29T03:35:43.220Z",
+        "billing": "$75 per course",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "eb8ebae4-5754-47e7-9c48-7db2b2ee9f78",
+        "plan_name": "Gold Plan",
+        "coverage": 49456,
+        "created_at": "2023-08-28T16:27:48.710Z",
+        "updated_at": "2023-08-28T10:31:08.443Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "265a4401-efcd-4cc8-984a-75b9040ecdc4",
+        "plan_name": "Silver Plan",
+        "coverage": 76733,
+        "created_at": "2023-08-28T11:13:06.521Z",
+        "updated_at": "2023-08-28T14:12:41.534Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f73590b3-f57b-46ff-a3a9-58746a17994d",
+        "plan_name": "Bronze Plan",
+        "coverage": 84738,
+        "created_at": "2023-08-28T10:51:29.528Z",
+        "updated_at": "2023-08-28T17:55:22.806Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9765f26e-844b-400c-abf5-31f7a94c0515",
+        "plan_name": "Platinum Plan",
+        "coverage": 63312,
+        "created_at": "2023-08-28T19:30:37.621Z",
+        "updated_at": "2023-08-28T10:21:26.721Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f44da56a-cb9d-495c-bfcd-cd59020d1a00",
+        "plan_name": "Basic Plan",
+        "coverage": 24255,
+        "created_at": "2023-08-28T15:00:22.162Z",
+        "updated_at": "2023-08-29T02:12:15.662Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "f9f86c3b-9200-4306-a6d5-ce12f0b7731c",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 58836,
+        "created_at": "2023-08-29T01:56:02.279Z",
+        "updated_at": "2023-08-28T20:48:47.485Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e2a0a738-182f-4add-95f9-d3531d61734e",
+        "name": "Dr. Emily Davis",
+        "specialty": "Psychiatry",
+        "experience": 68275,
+        "created_at": "2023-08-29T03:35:10.833Z",
+        "updated_at": "2023-08-28T23:07:44.611Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "050c4467-34b1-473c-ba4f-4048662bee51",
+        "name": "Dr. Michael Johnson",
+        "specialty": "Dermatology",
+        "experience": 15009,
+        "created_at": "2023-08-28T14:52:40.960Z",
+        "updated_at": "2023-08-28T06:47:42.439Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "69e67637-7f0f-4e9f-b421-86ab9d7271f1",
+        "name": "Dr. Sarah Wilson",
+        "specialty": "Pediatrics",
+        "experience": 51296,
+        "created_at": "2023-08-29T02:49:19.288Z",
+        "updated_at": "2023-08-28T06:05:20.851Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cd8a9d49-ffb4-45ab-a5d1-a52a73413e77",
+        "name": "Dr. David Brown",
+        "specialty": "Orthopedics",
+        "experience": 96369,
+        "created_at": "2023-08-28T23:31:01.815Z",
+        "updated_at": "2023-08-28T17:32:05.575Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "62f98a83-2911-404c-b1e7-4c72359e5cd2",
+        "date_time": "2023-08-28T20:06:26.216Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T19:52:52.005Z",
+        "updated_at": "2023-08-29T00:56:34.788Z",
+        "doctor_id": "cd8a9d49-ffb4-45ab-a5d1-a52a73413e77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cf45733-dc58-4509-8ade-a5cfe54deca5",
+        "date_time": "2023-08-28T05:44:31.272Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-28T18:39:56.040Z",
+        "updated_at": "2023-08-28T11:58:53.821Z",
+        "doctor_id": "cd8a9d49-ffb4-45ab-a5d1-a52a73413e77",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c4ec871-01bb-47de-8bb0-3f34e4d1564c",
+        "date_time": "2023-08-28T08:55:41.791Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T18:53:47.317Z",
+        "updated_at": "2023-08-28T09:24:58.483Z",
+        "doctor_id": "69e67637-7f0f-4e9f-b421-86ab9d7271f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d278b83-ea62-4e77-a9ec-5520d87339b2",
+        "date_time": "2023-08-28T08:24:58.324Z",
+        "status": "Completed",
+        "created_at": "2023-08-29T01:23:45.938Z",
+        "updated_at": "2023-08-28T19:20:54.615Z",
+        "doctor_id": "f9f86c3b-9200-4306-a6d5-ce12f0b7731c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6b5eda4-8058-4c95-bd42-38dde92d7c2d",
+        "date_time": "2023-08-28T22:04:50.894Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T17:55:40.513Z",
+        "updated_at": "2023-08-28T12:31:52.793Z",
+        "doctor_id": "f9f86c3b-9200-4306-a6d5-ce12f0b7731c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2104fc51-912c-4e32-89c7-d43afdc31ce8",
+        "email": "Carissa18@hotmail.com",
+        "firstName": "Adolfo",
+        "lastName": "Ernser-Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34931166",
+        "tenantId": null
+      },
+      {
+        "reference": "dc545f7b-8a8e-44b2-a7c2-bcd2cfca3b50",
+        "email": "Jayson.Cremin48@yahoo.com",
+        "firstName": "Perry",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39596477",
+        "tenantId": null
+      },
+      {
+        "reference": "7d1397f8-5284-4611-b18a-2fb7cbbc69e3",
+        "email": "Berenice.Rempel89@hotmail.com",
+        "firstName": "Joany",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64934312",
+        "tenantId": null
+      },
+      {
+        "reference": "2d0cde93-ea3f-4c6e-ae06-efc481408b62",
+        "email": "Bart.Green12@yahoo.com",
+        "firstName": "Alexander",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16968877",
+        "tenantId": null
+      },
+      {
+        "reference": "eed84623-788e-4cdd-80ac-d00c3edecd0a",
+        "email": "Eulah65@gmail.com",
+        "firstName": "Waino",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1189.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "f8642eeb-4bbf-4f82-9b27-96282b3cff30",
+        "name": "General Check-up",
+        "description": "Comprehensive health assessment",
+        "cost": 60591,
+        "created_at": "2023-08-28T19:28:19.272Z",
+        "updated_at": "2023-08-28T20:15:09.447Z",
+        "billing": "$100 per session",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "862807dd-cd00-4b57-8283-dcb448067055",
+        "name": "Dental Cleaning",
+        "description": "Professional teeth cleaning",
+        "cost": 78489,
+        "created_at": "2023-08-29T03:18:59.937Z",
+        "updated_at": "2023-08-29T01:37:58.050Z",
+        "billing": "$150 per hour",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b25fb478-9dc4-4adf-9278-e824ed8ef3ca",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation exercises",
+        "cost": 78884,
+        "created_at": "2023-08-29T02:33:48.872Z",
+        "updated_at": "2023-08-28T07:59:11.078Z",
+        "billing": "$200 per visit",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7def1e37-51e5-480e-921e-4f6c4771a64a",
+        "name": "Eye Examination",
+        "description": "Vision testing and evaluation",
+        "cost": 75137,
+        "created_at": "2023-08-28T05:08:35.006Z",
+        "updated_at": "2023-08-28T12:27:57.341Z",
+        "billing": "$250 per consultation",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fb3c1185-59ea-49b9-ba7e-dd900f483e5e",
+        "name": "Mental Health Counseling",
+        "description": "Therapeutic counseling sessions",
+        "cost": 84151,
+        "created_at": "2023-08-28T05:49:34.941Z",
+        "updated_at": "2023-08-28T07:20:20.673Z",
+        "billing": "$300 per treatment",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "259ddfde-5fc3-43c5-a899-360357b83292",
+        "plan_name": "Gold Plan",
+        "coverage": 98585,
+        "created_at": "2023-08-28T15:29:45.723Z",
+        "updated_at": "2023-08-28T18:08:52.123Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ba00d65-03b1-43ed-9947-b1c5b002fe61",
+        "plan_name": "Silver Plan",
+        "coverage": 20591,
+        "created_at": "2023-08-28T10:47:59.062Z",
+        "updated_at": "2023-08-28T18:31:25.034Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7df41fec-cb77-4494-94a2-ad7c5fed9cb9",
+        "plan_name": "Bronze Plan",
+        "coverage": 19884,
+        "created_at": "2023-08-28T19:47:04.749Z",
+        "updated_at": "2023-08-29T03:04:22.481Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59d29dc7-6978-4f64-bbef-32691c983c57",
+        "plan_name": "Platinum Plan",
+        "coverage": 55080,
+        "created_at": "2023-08-29T01:18:21.605Z",
+        "updated_at": "2023-08-28T23:40:23.725Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c6e08a4-9073-4a15-9185-d36e8e8a5e3f",
+        "plan_name": "Diamond Plan",
+        "coverage": 1656,
+        "created_at": "2023-08-28T21:38:07.372Z",
+        "updated_at": "2023-08-28T23:03:11.452Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "b90df2e1-7584-4b90-9f6f-826c1cd57a34",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 330,
+        "created_at": "2023-08-29T02:00:24.901Z",
+        "updated_at": "2023-08-28T18:24:02.536Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "26e68920-0fd8-469f-86e9-4520c49b94ec",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Pediatrics",
+        "experience": 94332,
+        "created_at": "2023-08-28T21:16:58.528Z",
+        "updated_at": "2023-08-29T03:36:52.498Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "8a2b347d-c8f8-464e-bb83-84d82e8a0098",
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "experience": 34177,
+        "created_at": "2023-08-28T14:03:43.630Z",
+        "updated_at": "2023-08-28T12:50:20.389Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "45e9de9a-1b44-4a2b-8f4a-3ea70055481f",
+        "name": "Dr. Emily Davis",
+        "specialty": "Dermatology",
+        "experience": 84263,
+        "created_at": "2023-08-28T20:59:01.341Z",
+        "updated_at": "2023-08-29T03:24:23.616Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "380d0601-1f9b-4dff-b21f-9fceb30d095b",
+        "name": "Dr. David Wilson",
+        "specialty": "Neurology",
+        "experience": 39496,
+        "created_at": "2023-08-28T17:20:19.535Z",
+        "updated_at": "2023-08-29T01:25:50.112Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "49a5a2e7-b745-40ad-8b28-d2122e0df722",
+        "date_time": "2023-08-28T09:50:41.919Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T23:51:21.215Z",
+        "updated_at": "2023-08-28T22:44:49.483Z",
+        "doctor_id": "380d0601-1f9b-4dff-b21f-9fceb30d095b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf3bdc03-334c-4894-a885-29d68701f9b2",
+        "date_time": "2023-08-29T00:56:49.020Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T03:09:35.680Z",
+        "updated_at": "2023-08-28T07:13:55.996Z",
+        "doctor_id": "b90df2e1-7584-4b90-9f6f-826c1cd57a34",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad798110-926f-4c42-8194-8247964d7c41",
+        "date_time": "2023-08-28T10:35:37.079Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T11:35:33.224Z",
+        "updated_at": "2023-08-28T15:19:12.088Z",
+        "doctor_id": "380d0601-1f9b-4dff-b21f-9fceb30d095b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f069cab-75ac-4cfd-b7d0-17688ba00178",
+        "date_time": "2023-08-28T13:14:05.068Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T17:43:37.238Z",
+        "updated_at": "2023-08-29T02:26:28.909Z",
+        "doctor_id": "45e9de9a-1b44-4a2b-8f4a-3ea70055481f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f06eba67-569a-4f6e-92e1-33261567637d",
+        "date_time": "2023-08-28T09:27:59.692Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T20:40:18.920Z",
+        "updated_at": "2023-08-28T06:56:03.510Z",
+        "doctor_id": "45e9de9a-1b44-4a2b-8f4a-3ea70055481f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8b0a5f30-7bbc-472e-96da-f8ac3ce2f2e1",
+        "email": "Carlo_Rosenbaum94@hotmail.com",
+        "firstName": "Ophelia",
+        "lastName": "Volkman-Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/438.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d94af003-68ef-4261-857e-482423b4436b",
+        "email": "Rita78@gmail.com",
+        "firstName": "Kariane",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56624890",
+        "tenantId": null
+      },
+      {
+        "reference": "4e7a7a90-10f3-46d1-af12-03257e537be6",
+        "email": "Kaya_Gusikowski1@hotmail.com",
+        "firstName": "Heidi",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2c5c8cbf-cb48-4745-b008-974cc853bcad",
+        "email": "Carson52@hotmail.com",
+        "firstName": "Rogelio",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22472758",
+        "tenantId": null
+      },
+      {
+        "reference": "e7f4e8bc-e0b8-4bf4-adac-6e2f7834e94b",
+        "email": "Lurline.Ledner@yahoo.com",
+        "firstName": "Colby",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15632832",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "1fc76078-84cf-4ad2-8cfe-7b320ecf3a94",
+        "name": "Consultation",
+        "description": "Comprehensive medical consultation",
+        "cost": 9723,
+        "created_at": "2023-08-28T17:35:48.012Z",
+        "updated_at": "2023-08-28T15:48:07.672Z",
+        "billing": "Insurance",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "7d4eee7a-b551-407d-8642-a6f4e6a9ad88",
+        "name": "Diagnostic tests",
+        "description": "Accurate diagnostic tests",
+        "cost": 4467,
+        "created_at": "2023-08-28T15:59:11.309Z",
+        "updated_at": "2023-08-28T16:57:45.196Z",
+        "billing": "Out-of-pocket",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f327fd42-3a61-49f3-9d3c-a6e6e8dbb86d",
+        "name": "Surgery",
+        "description": "Advanced surgical procedures",
+        "cost": 72976,
+        "created_at": "2023-08-28T09:05:01.305Z",
+        "updated_at": "2023-08-29T03:13:23.756Z",
+        "billing": "Medicare",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0c9da874-8854-4c9e-ad87-382e796ea64c",
+        "name": "Physical therapy",
+        "description": "Personalized physical therapy",
+        "cost": 4081,
+        "created_at": "2023-08-28T06:48:10.703Z",
+        "updated_at": "2023-08-29T03:22:21.332Z",
+        "billing": "Private pay",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "58dd6fdf-b067-4db5-b23e-15a39de60c73",
+        "name": "Mental health counseling",
+        "description": "Expert mental health counseling",
+        "cost": 3583,
+        "created_at": "2023-08-28T06:24:46.083Z",
+        "updated_at": "2023-08-28T07:58:41.827Z",
+        "billing": "Health savings account",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "26d06b02-7410-4aab-99ae-5c2884d16822",
+        "plan_name": "Gold Plan",
+        "coverage": 3254,
+        "created_at": "2023-08-28T05:45:18.032Z",
+        "updated_at": "2023-08-28T04:40:43.102Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d0a6413-b610-4f9a-8ddc-e74f176cc372",
+        "plan_name": "Silver Plan",
+        "coverage": 18134,
+        "created_at": "2023-08-29T00:11:21.759Z",
+        "updated_at": "2023-08-28T13:23:30.334Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c5fdad1a-bf6a-4a29-a2c3-c0b3a6114e7a",
+        "plan_name": "Bronze Plan",
+        "coverage": 60941,
+        "created_at": "2023-08-28T16:04:19.114Z",
+        "updated_at": "2023-08-28T14:11:08.696Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7aef9d14-b4f0-462a-bfeb-9a14cf01cf00",
+        "plan_name": "Platinum Plan",
+        "coverage": 67732,
+        "created_at": "2023-08-29T03:52:33.094Z",
+        "updated_at": "2023-08-28T14:07:19.770Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "245fb52b-8e6b-4b93-ab9f-045c44ae5be6",
+        "plan_name": "Catastrophic Plan",
+        "coverage": 40535,
+        "created_at": "2023-08-28T23:24:43.129Z",
+        "updated_at": "2023-08-28T22:32:13.688Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "f1cc4b38-a9ba-4007-bb8a-ec47cf7e68b3",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 82244,
+        "created_at": "2023-08-28T05:11:43.691Z",
+        "updated_at": "2023-08-28T11:38:36.298Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "c940ea87-2e5b-4592-9fcc-63615e93e328",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Pediatrics",
+        "experience": 82383,
+        "created_at": "2023-08-28T16:10:10.523Z",
+        "updated_at": "2023-08-28T07:12:18.271Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "41ba3de1-2622-4f1f-b2cf-d127965e2f62",
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "experience": 17672,
+        "created_at": "2023-08-28T18:46:31.145Z",
+        "updated_at": "2023-08-28T06:58:48.914Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0062f225-ac3d-4d4b-9cb2-229c06456a6e",
+        "name": "Dr. Emily Davis",
+        "specialty": "Dermatology",
+        "experience": 44644,
+        "created_at": "2023-08-28T06:35:50.464Z",
+        "updated_at": "2023-08-28T22:13:36.390Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ad63ef50-3e77-4ec0-bcdc-e9c1e3fdc5c7",
+        "name": "Dr. Robert Wilson",
+        "specialty": "Neurology",
+        "experience": 95462,
+        "created_at": "2023-08-28T14:42:05.313Z",
+        "updated_at": "2023-08-28T09:45:47.257Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "c66e109c-53df-42a9-8947-653ab1105fc1",
+        "date_time": "2023-08-28T23:12:15.934Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T04:44:38.452Z",
+        "updated_at": "2023-08-28T17:04:16.931Z",
+        "doctor_id": "ad63ef50-3e77-4ec0-bcdc-e9c1e3fdc5c7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10d982be-7bb3-4293-8453-962ae146b4f0",
+        "date_time": "2023-08-28T21:04:20.230Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T08:40:21.921Z",
+        "updated_at": "2023-08-28T06:52:44.518Z",
+        "doctor_id": "f1cc4b38-a9ba-4007-bb8a-ec47cf7e68b3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a55efef-0996-4c4f-9c42-f1f4a9c6e316",
+        "date_time": "2023-08-28T05:46:46.308Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T06:46:35.661Z",
+        "updated_at": "2023-08-28T07:54:17.080Z",
+        "doctor_id": "0062f225-ac3d-4d4b-9cb2-229c06456a6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93975def-3f86-48b9-888a-5a6411dadfca",
+        "date_time": "2023-08-28T07:01:43.394Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T14:04:18.181Z",
+        "updated_at": "2023-08-28T11:39:54.053Z",
+        "doctor_id": "0062f225-ac3d-4d4b-9cb2-229c06456a6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81d5a5f1-0a0b-496f-86e1-9e35084382ba",
+        "date_time": "2023-08-28T03:56:07.296Z",
+        "status": "In progress",
+        "created_at": "2023-08-28T09:50:43.859Z",
+        "updated_at": "2023-08-28T22:44:26.297Z",
+        "doctor_id": "41ba3de1-2622-4f1f-b2cf-d127965e2f62",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9d6c41e5-582a-4c8d-8645-cc24c7bbf030",
+        "email": "Heaven.Predovic15@yahoo.com",
+        "firstName": "Cathrine",
+        "lastName": "Kulas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58766328",
+        "tenantId": null
+      },
+      {
+        "reference": "76ecc4e8-23a6-4f1f-9b2c-d815785e3087",
+        "email": "Helena_Bruen18@gmail.com",
+        "firstName": "Royce",
+        "lastName": "Corkery",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/924.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec075904-f058-4113-8518-ed9e74d914e7",
+        "email": "Keyon.Hartmann43@gmail.com",
+        "firstName": "Reid",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60620041",
+        "tenantId": null
+      },
+      {
+        "reference": "f8c3e692-0d70-41a5-a2f1-96af487f6c37",
+        "email": "Brook.Abernathy13@gmail.com",
+        "firstName": "Susan",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14012831",
+        "tenantId": null
+      },
+      {
+        "reference": "7f0ceada-0459-4639-a43b-bf87c014b50f",
+        "email": "Chaya.Marks54@yahoo.com",
+        "firstName": "Fae",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1005.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "e3c7df28-ef8f-4df0-aad7-ab8b07ef22cd",
+        "name": "General Check-up",
+        "description": "Comprehensive health assessment",
+        "cost": 95667,
+        "created_at": "2023-08-29T02:40:17.438Z",
+        "updated_at": "2023-08-29T00:17:44.412Z",
+        "billing": "$100 per session",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1f4d7532-f8d2-4bf4-8574-f979c6472fa0",
+        "name": "Dental Cleaning",
+        "description": "Professional teeth cleaning",
+        "cost": 25947,
+        "created_at": "2023-08-28T18:53:29.442Z",
+        "updated_at": "2023-08-28T20:36:43.864Z",
+        "billing": "$50 per hour",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0d4194b3-44ca-4e19-a766-23da6e75eb7d",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation for injuries",
+        "cost": 28958,
+        "created_at": "2023-08-28T19:55:21.058Z",
+        "updated_at": "2023-08-28T15:08:38.262Z",
+        "billing": "$200 per visit",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0f5c7a14-2ecc-4635-bb7c-9652f7bc15a3",
+        "name": "IT Consulting",
+        "description": "Technology advisory services",
+        "cost": 50298,
+        "created_at": "2023-08-28T15:57:57.224Z",
+        "updated_at": "2023-08-28T05:26:45.214Z",
+        "billing": "$150 per hour",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4fbb032d-4f73-4309-8650-fca6db2f7f44",
+        "name": "Online Courses",
+        "description": "Online educational programs",
+        "cost": 80335,
+        "created_at": "2023-08-28T06:10:48.833Z",
+        "updated_at": "2023-08-28T13:59:49.756Z",
+        "billing": "$50 per course",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "c4fc9a4a-64ef-4671-865e-522ec22c13f6",
+        "plan_name": "Gold Plan",
+        "coverage": 90859,
+        "created_at": "2023-08-29T02:15:43.161Z",
+        "updated_at": "2023-08-29T00:28:00.144Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f8922b93-f5f2-4955-a4b1-ccfe6a4c0161",
+        "plan_name": "Silver Plan",
+        "coverage": 96728,
+        "created_at": "2023-08-28T16:21:08.907Z",
+        "updated_at": "2023-08-28T20:23:16.690Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbc9d315-0b3f-4488-8491-43d6ae4e302f",
+        "plan_name": "Bronze Plan",
+        "coverage": 77317,
+        "created_at": "2023-08-28T20:10:50.769Z",
+        "updated_at": "2023-08-28T14:09:23.364Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ce8a3f8-9fe9-4396-ae63-b968a3466cc3",
+        "plan_name": "Platinum Plan",
+        "coverage": 72068,
+        "created_at": "2023-08-28T23:25:35.918Z",
+        "updated_at": "2023-08-28T06:42:48.671Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcd61eb0-1e98-4431-a40a-cdc8658013d6",
+        "plan_name": "Basic Plan",
+        "coverage": 68501,
+        "created_at": "2023-08-29T03:10:07.006Z",
+        "updated_at": "2023-08-28T04:05:18.420Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "97dda68b-ba5b-416e-9cbb-51441d73913e",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 32663,
+        "created_at": "2023-08-28T21:35:02.483Z",
+        "updated_at": "2023-08-28T19:53:51.758Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b5c99bbb-0f54-4cf1-8812-436ea357d92c",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Dermatology",
+        "experience": 79684,
+        "created_at": "2023-08-28T13:29:08.156Z",
+        "updated_at": "2023-08-28T11:21:15.232Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3769373c-db17-4ed3-826e-c4b6601687c2",
+        "name": "Dr. Michael Brown",
+        "specialty": "Orthopedics",
+        "experience": 89101,
+        "created_at": "2023-08-28T18:34:42.913Z",
+        "updated_at": "2023-08-28T22:56:52.977Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9a8550fe-6031-44e2-b76e-c9f93d0578d1",
+        "name": "Dr. Emily Davis",
+        "specialty": "Pediatrics",
+        "experience": 76308,
+        "created_at": "2023-08-28T15:39:12.376Z",
+        "updated_at": "2023-08-28T21:34:00.954Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "57c93f85-390b-4545-8103-685ff6e328e3",
+        "name": "Dr. David Wilson",
+        "specialty": "Neurology",
+        "experience": 8024,
+        "created_at": "2023-08-28T04:07:22.680Z",
+        "updated_at": "2023-08-29T03:06:37.419Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "16bb6ac5-3275-4b49-91af-562f07b27ec2",
+        "date_time": "2023-08-28T18:21:24.049Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T17:04:38.023Z",
+        "updated_at": "2023-08-28T13:22:15.425Z",
+        "doctor_id": "9a8550fe-6031-44e2-b76e-c9f93d0578d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ac7d398-14af-49c5-a897-f0ca403ea1cb",
+        "date_time": "2023-08-28T22:55:37.354Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T07:06:05.790Z",
+        "updated_at": "2023-08-28T15:59:45.138Z",
+        "doctor_id": "b5c99bbb-0f54-4cf1-8812-436ea357d92c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e275d616-d3a1-4f2e-8430-19b62227b42d",
+        "date_time": "2023-08-28T10:46:39.488Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T19:02:06.506Z",
+        "updated_at": "2023-08-28T04:44:02.819Z",
+        "doctor_id": "b5c99bbb-0f54-4cf1-8812-436ea357d92c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90c28e9a-160f-40c5-8a10-575690213566",
+        "date_time": "2023-08-28T12:28:01.746Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T11:29:09.188Z",
+        "updated_at": "2023-08-28T07:55:55.154Z",
+        "doctor_id": "9a8550fe-6031-44e2-b76e-c9f93d0578d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2970725e-511f-4fc6-820a-80613a90ff3b",
+        "date_time": "2023-08-28T07:56:46.618Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T22:51:26.500Z",
+        "updated_at": "2023-08-28T08:46:34.852Z",
+        "doctor_id": "57c93f85-390b-4545-8103-685ff6e328e3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a28a357e-e6aa-499f-a2fe-25f2181531cd",
+        "email": "Reginald_Halvorson12@yahoo.com",
+        "firstName": "Rowland",
+        "lastName": "Torp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54128601",
+        "tenantId": null
+      },
+      {
+        "reference": "65c314b8-fe3c-4654-a100-edc9b0882029",
+        "email": "Jamil.Larkin@hotmail.com",
+        "firstName": "Flo",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/139.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5492ac72-5d8d-4bd9-8fbe-c176cf5f9096",
+        "email": "Nicolette.Hilpert66@hotmail.com",
+        "firstName": "Ramon",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56327569",
+        "tenantId": null
+      },
+      {
+        "reference": "f0b0bb5b-d3aa-4092-bc74-3537c57c4b5c",
+        "email": "Wilhelm64@gmail.com",
+        "firstName": "Verner",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92576508",
+        "tenantId": null
+      },
+      {
+        "reference": "740e810f-4a2b-4f3e-8a2a-b1f89a1d5d01",
+        "email": "Hardy73@gmail.com",
+        "firstName": "Jeremy",
+        "lastName": "Wisoky",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98152468",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "22ee28b4-762b-49c5-9b14-3d9dd970fe2a",
+        "name": "General Checkup",
+        "description": "Comprehensive health examination",
+        "cost": 77397,
+        "created_at": "2023-08-28T22:23:59.287Z",
+        "updated_at": "2023-08-29T02:43:58.192Z",
+        "billing": "$100",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bfa4d42f-1045-436b-a78f-d327c44e1068",
+        "name": "Dental Cleaning",
+        "description": "Professional teeth cleaning",
+        "cost": 2810,
+        "created_at": "2023-08-28T22:21:58.556Z",
+        "updated_at": "2023-08-28T05:58:21.339Z",
+        "billing": "$80",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9d3695af-1dd1-4ce4-9eae-ffbf8af3ecfb",
+        "name": "Physical Therapy",
+        "description": "Rehabilitation through exercises",
+        "cost": 81654,
+        "created_at": "2023-08-29T01:41:07.315Z",
+        "updated_at": "2023-08-28T13:36:32.257Z",
+        "billing": "$120",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "74e8798a-cbb1-4628-8955-8f0519236b9a",
+        "name": "Psychological Counseling",
+        "description": "Mental health support and guidance",
+        "cost": 19933,
+        "created_at": "2023-08-29T01:02:37.508Z",
+        "updated_at": "2023-08-29T01:15:53.276Z",
+        "billing": "$150",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4c6dd1ee-795f-4bad-994f-bb05f64045ed",
+        "name": "Surgical Procedure",
+        "description": "Medical operation",
+        "cost": 80456,
+        "created_at": "2023-08-28T20:24:04.566Z",
+        "updated_at": "2023-08-28T09:26:18.684Z",
+        "billing": "$200",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "cdb3a532-5acd-43bd-b52e-ec83f1c86cde",
+        "plan_name": "Standard Plan",
+        "coverage": 620,
+        "created_at": "2023-08-28T12:30:10.342Z",
+        "updated_at": "2023-08-29T03:49:55.902Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ace2924f-ec00-4887-a423-57d52b15c57e",
+        "plan_name": "Premium Plan",
+        "coverage": 44915,
+        "created_at": "2023-08-28T10:26:21.038Z",
+        "updated_at": "2023-08-28T12:32:06.074Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e5c61b5-58eb-4001-95e9-b44d4a0007d7",
+        "plan_name": "Family Plan",
+        "coverage": 64956,
+        "created_at": "2023-08-28T10:40:21.252Z",
+        "updated_at": "2023-08-28T11:17:52.613Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6faf80b4-71bc-41eb-9ff0-38080680f26c",
+        "plan_name": "Senior Plan",
+        "coverage": 56093,
+        "created_at": "2023-08-29T03:40:49.104Z",
+        "updated_at": "2023-08-28T09:50:49.437Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9521f202-568f-4daa-b105-d0ba2c429bc2",
+        "plan_name": "Student Plan",
+        "coverage": 36980,
+        "created_at": "2023-08-29T00:42:29.622Z",
+        "updated_at": "2023-08-28T16:57:33.956Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "7f588638-dcff-488b-8000-219aaefa661f",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 59249,
+        "created_at": "2023-08-28T20:52:51.032Z",
+        "updated_at": "2023-08-28T07:13:26.400Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "01030b1c-bdf2-482e-b36d-e7b73c6a223e",
+        "name": "Dr. Emily Davis",
+        "specialty": "Pediatrics",
+        "experience": 52280,
+        "created_at": "2023-08-28T16:29:05.057Z",
+        "updated_at": "2023-08-28T23:04:36.257Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "872695d4-a36f-4395-ab8a-b42dea3cea91",
+        "name": "Dr. Michael Johnson",
+        "specialty": "Orthopedics",
+        "experience": 28384,
+        "created_at": "2023-08-28T11:54:43.480Z",
+        "updated_at": "2023-08-28T15:11:26.315Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d4b54ba-0abf-4514-8acd-69d90cf33e88",
+        "name": "Dr. Sarah Wilson",
+        "specialty": "Psychiatry",
+        "experience": 58968,
+        "created_at": "2023-08-29T00:37:02.026Z",
+        "updated_at": "2023-08-28T17:29:23.735Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b65d76b3-cf33-4980-9900-48e8442554ca",
+        "name": "Dr. Robert Brown",
+        "specialty": "Dermatology",
+        "experience": 24798,
+        "created_at": "2023-08-28T17:29:53.464Z",
+        "updated_at": "2023-08-28T22:16:29.189Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "57c1f5b4-3c21-433b-8fca-f4bdeb82e90b",
+        "date_time": "2023-08-28T04:48:27.848Z",
+        "status": "Scheduled",
+        "created_at": "2023-08-28T21:58:35.022Z",
+        "updated_at": "2023-08-28T15:25:51.865Z",
+        "doctor_id": "7f588638-dcff-488b-8000-219aaefa661f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a72c925-71e2-4960-909c-fbf812ffae45",
+        "date_time": "2023-08-28T15:56:54.143Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T20:31:40.732Z",
+        "updated_at": "2023-08-28T21:25:17.516Z",
+        "doctor_id": "872695d4-a36f-4395-ab8a-b42dea3cea91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9080b5d-82fb-4d29-95c1-fc9de2c12aa7",
+        "date_time": "2023-08-28T22:15:17.113Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T22:35:29.274Z",
+        "updated_at": "2023-08-28T05:03:22.741Z",
+        "doctor_id": "01030b1c-bdf2-482e-b36d-e7b73c6a223e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71c6ae1c-6f99-44ef-be9f-3aca3a751b90",
+        "date_time": "2023-08-28T10:26:03.877Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T09:47:31.299Z",
+        "updated_at": "2023-08-28T23:25:50.122Z",
+        "doctor_id": "7f588638-dcff-488b-8000-219aaefa661f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a646cd21-b08c-4272-aa8f-f4c09b012303",
+        "date_time": "2023-08-28T05:25:36.904Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T09:07:29.511Z",
+        "updated_at": "2023-08-28T09:25:05.572Z",
+        "doctor_id": "872695d4-a36f-4395-ab8a-b42dea3cea91",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "69301533-d753-4ba4-8b78-7f036bef45de",
+        "email": "Vernice21@yahoo.com",
+        "firstName": "Frederik",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45909832",
+        "tenantId": null
+      },
+      {
+        "reference": "24c0eea7-605f-4913-8581-32769bf64ecb",
+        "email": "Dawn.Simonis@yahoo.com",
+        "firstName": "Penelope",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57599059",
+        "tenantId": null
+      },
+      {
+        "reference": "0427cefc-d2f4-46a9-b457-656fbf33a780",
+        "email": "Brook81@gmail.com",
+        "firstName": "Kristina",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26524644",
+        "tenantId": null
+      },
+      {
+        "reference": "0a7efd87-adbc-43e5-9d55-81f91ef1acb9",
+        "email": "Jerrod79@yahoo.com",
+        "firstName": "Mona",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e892da73-a1dc-43c8-902b-8bef66544cc1",
+        "email": "Ines81@gmail.com",
+        "firstName": "Cassidy",
+        "lastName": "Greenholt-Baumbach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/586.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "service": [
+      {
+        "id": "e5186469-7e10-4d8f-83a3-70eef3d914a1",
+        "name": "Website Design",
+        "description": "We create stunning websites that engage your audience",
+        "cost": 98630,
+        "created_at": "2023-08-28T06:16:01.221Z",
+        "updated_at": "2023-08-28T15:07:15.458Z",
+        "billing": "Hourly",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b27d5f48-d093-489b-8592-b3239575e7c3",
+        "name": "Mobile App Development",
+        "description": "Build innovative mobile apps for iOS and Android platforms",
+        "cost": 16510,
+        "created_at": "2023-08-28T22:22:28.276Z",
+        "updated_at": "2023-08-28T19:02:46.362Z",
+        "billing": "Fixed Price",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "dfa891a9-762d-4d9d-bed0-380132667057",
+        "name": "Cloud Hosting",
+        "description": "Secure and scalable cloud hosting solutions for your business",
+        "cost": 72689,
+        "created_at": "2023-08-28T18:08:10.268Z",
+        "updated_at": "2023-08-29T02:48:23.414Z",
+        "billing": "Monthly Subscription",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6c4acc80-f340-40c4-b5c1-a9407c44f661",
+        "name": "Digital Marketing",
+        "description": "Boost your online presence with our effective digital marketing strategies",
+        "cost": 33998,
+        "created_at": "2023-08-28T18:42:19.093Z",
+        "updated_at": "2023-08-28T12:44:46.965Z",
+        "billing": "Pay-per-Click",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6534fb08-01af-4a0f-8daf-df29d8cfdcff",
+        "name": "IT Consulting",
+        "description": "Expert advice and solutions for all your IT needs",
+        "cost": 21614,
+        "created_at": "2023-08-28T20:19:24.170Z",
+        "updated_at": "2023-08-28T07:21:13.187Z",
+        "billing": "Project-based",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "756e0f1f-d54a-4dfd-bba1-e502dc650b95",
+        "plan_name": "Gold Plan",
+        "coverage": 38662,
+        "created_at": "2023-08-28T19:43:11.085Z",
+        "updated_at": "2023-08-28T20:02:06.920Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ac6e34d-96c7-4bcc-958f-9ee688f44f99",
+        "plan_name": "Silver Plan",
+        "coverage": 20069,
+        "created_at": "2023-08-28T13:48:40.729Z",
+        "updated_at": "2023-08-29T00:14:30.878Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56c76bed-0185-4756-9a48-265b1571bce4",
+        "plan_name": "Platinum Plan",
+        "coverage": 72326,
+        "created_at": "2023-08-28T18:03:54.356Z",
+        "updated_at": "2023-08-28T21:15:54.928Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2ae8e4e-7af2-4207-8293-ef3e14deef71",
+        "plan_name": "Bronze Plan",
+        "coverage": 92001,
+        "created_at": "2023-08-28T05:56:59.501Z",
+        "updated_at": "2023-08-28T19:27:24.120Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66fc7173-c786-49ce-bb8d-b1a977cd46ad",
+        "plan_name": "Diamond Plan",
+        "coverage": 15807,
+        "created_at": "2023-08-28T10:11:00.909Z",
+        "updated_at": "2023-08-28T15:21:34.591Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "doctor": [
+      {
+        "id": "88571319-d50e-4a43-9ac2-2f1ccb743354",
+        "name": "Dr. John Smith",
+        "specialty": "Cardiology",
+        "experience": 17439,
+        "created_at": "2023-08-28T22:03:38.013Z",
+        "updated_at": "2023-08-28T05:46:52.558Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "30c4eeba-5ba4-46c3-a58e-1acbae0702c7",
+        "name": "Dr. Sarah Johnson",
+        "specialty": "Pediatrics",
+        "experience": 51011,
+        "created_at": "2023-08-28T09:02:28.382Z",
+        "updated_at": "2023-08-28T13:27:22.781Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0e8a6b3e-28a6-4b8e-827e-a408f9ddc876",
+        "name": "Dr. Michael Brown",
+        "specialty": "Dermatology",
+        "experience": 69180,
+        "created_at": "2023-08-28T11:39:30.899Z",
+        "updated_at": "2023-08-28T18:35:40.230Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "52b952c2-c88f-4320-a1eb-4364b95ab352",
+        "name": "Dr. Emily Davis",
+        "specialty": "Orthopedics",
+        "experience": 10895,
+        "created_at": "2023-08-28T10:43:22.749Z",
+        "updated_at": "2023-08-28T12:58:13.581Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e7db76f6-f008-4bce-a3db-ae81f0fa7516",
+        "name": "Dr. David Wilson",
+        "specialty": "Gynecology",
+        "experience": 37911,
+        "created_at": "2023-08-28T10:39:08.994Z",
+        "updated_at": "2023-08-28T20:35:01.400Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "appointment": [
+      {
+        "id": "9cdff150-db88-4b3a-b6ee-25af1ab6a301",
+        "date_time": "2023-08-28T21:41:30.663Z",
+        "status": "Pending",
+        "created_at": "2023-08-28T04:20:02.597Z",
+        "updated_at": "2023-08-28T15:01:01.407Z",
+        "doctor_id": "52b952c2-c88f-4320-a1eb-4364b95ab352",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "471198a2-7461-438a-8898-4527b19e8b54",
+        "date_time": "2023-08-28T23:54:07.429Z",
+        "status": "Confirmed",
+        "created_at": "2023-08-28T08:30:19.645Z",
+        "updated_at": "2023-08-28T17:49:29.131Z",
+        "doctor_id": "e7db76f6-f008-4bce-a3db-ae81f0fa7516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2645900-9bba-4ddc-889f-8d39627a1510",
+        "date_time": "2023-08-28T18:34:19.041Z",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T05:25:03.336Z",
+        "updated_at": "2023-08-28T23:03:24.258Z",
+        "doctor_id": "0e8a6b3e-28a6-4b8e-827e-a408f9ddc876",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4392787c-9d29-49e2-926b-cf16823df59f",
+        "date_time": "2023-08-28T14:30:51.009Z",
+        "status": "Completed",
+        "created_at": "2023-08-28T19:57:06.504Z",
+        "updated_at": "2023-08-29T02:29:21.755Z",
+        "doctor_id": "e7db76f6-f008-4bce-a3db-ae81f0fa7516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cb77582-fa2c-458f-838e-ac428947d7d9",
+        "date_time": "2023-08-28T13:09:46.924Z",
+        "status": "Rescheduled",
+        "created_at": "2023-08-28T11:48:34.093Z",
+        "updated_at": "2023-08-28T23:37:50.706Z",
+        "doctor_id": "52b952c2-c88f-4320-a1eb-4364b95ab352",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e1fee614-93f0-4b13-9d3d-806f2485a1ea",
+        "email": "Rachelle67@gmail.com",
+        "firstName": "Chase",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40411388",
+        "tenantId": null
+      },
+      {
+        "reference": "ac3bc3a9-48c9-4c56-b8bf-7b922a350dc5",
+        "email": "Adelia28@gmail.com",
+        "firstName": "Ebba",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "151abc16-c0b8-4a5a-8251-24b4033a968b",
+        "email": "Shana6@gmail.com",
+        "firstName": "Lavern",
+        "lastName": "Schroeder-Baumbach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24945118",
+        "tenantId": null
+      },
+      {
+        "reference": "e052297b-6456-413a-840c-d4fa683ff7db",
+        "email": "Modesto_Hoeger5@hotmail.com",
+        "firstName": "Mireya",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1074.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f579e107-d878-4458-bc6c-f4f4bf4b6298",
+        "email": "Mayra.OConnell@hotmail.com",
+        "firstName": "Davion",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16017560",
+        "tenantId": null
+      }
+    ]
+  }
+]
